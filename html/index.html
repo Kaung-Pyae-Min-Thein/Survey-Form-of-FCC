@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../CSS/style.css" rel="stylesheet" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This Form is for examine purpose.</p>
+    <form action="#" id="survey-form">
+      <label for="name" id="name-label"
+        >Name:
+        <input type="text" id="name" placeholder="Full Name" required />
+      </label>
+      <br />
+
+      <label for="email" id="email-label"
+        >Email:
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="user@example.com"
+          required
+      /></label>
+      <br />
+
+      <label for="number" id="number-label"
+        >Number:
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="1"
+          max="20"
+          placeholder="1-20"
+          required
+      /></label>
+      <br />
+      <select name="dropdown" id="dropdown">
+        <option value="1">A</option>
+        <option value="2">B</option>
+      </select>
+      <br />
+
+      <label>
+        <input type="radio" name="gender" id="" value="male" />Male
+      </label>
+      <label>
+        <input type="radio" name="gender" id="" value="female" checked />Female
+      </label>
+      <br />
+
+      <label>
+        <input type="checkbox" name="age" id="child" value="child" />Child
+      </label>
+      <label for="">
+        <input
+          type="checkbox"
+          name="age"
+          id="adault"
+          value="adault"
+          checked
+        />Adault
+      </label>
+      <br />
+      <textarea placeholder="comments" rows="5"></textarea>
+      <br />
+      <input type="submit" id="submit" value="Confirm" />
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

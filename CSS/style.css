@@ -1,0 +1,21 @@
+h1,
+p {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+ padding-left: 80px;
+}
+select {
+  width: 10%;
+}
+textarea {
+  width: 50%;
+}
+
+input[type="submit"] {
+  width: 20%;
+  margin: auto;
+}
